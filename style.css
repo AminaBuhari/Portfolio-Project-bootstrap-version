@@ -1,57 +1,61 @@
 @import url("http://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-h1 h2 h3 p button{
-    font-family: "Inter", serif;
-}
-header-4{
-    font-size: 45px;
-    text-align: center;
-    color: #172b4d;
-    padding: 0 20px;
-    font-weight: 700;
-    font-family: "Inter", serif;
-}
-header{
-    background-image: url(images/background-desktop.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.para{
-    margin: 0 12rem;
-}
-.bg{
-    background-color: #ebf0ee;
+h1 h2 h3 p button {
+  font-family: "Inter", serif;
 }
 
-  .About-me {
-        background-repeat: no-repeat, no-repeat;
-        background-position: right 165%, left bottom;
-        background-image: url("/images/Mask2.svg"), url("/images/mask3.svg");
-        margin: 30px 3px;
-        background-size: 100px;
-      }
-
-form{
-    width: 50%;
+.header-4 {
+  font-size: 45px;
+  text-align: center;
+  color: #172b4d;
+  padding: 0 20px;
+  font-weight: 700;
+  font-family: "Inter", serif;
 }
 
-.icon{
-    border-top: 1px solid #dfe1e6;
+header {
+  background-image: url(images/background-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.butn{
-    margin-top: -100px;
+.para {
+  margin: 0 12rem;
 }
 
-.sect{
-    background-image: url("images/left.svg"), url("images/right.png"), url("images/middle.png");
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        background-position: left 117%, right 65%, 26% 107%;
-        background-size: 112px;
-        display: flex;
-        flex-wrap: wrap;
+.bg {
+  background-color: #ebf0ee;
+}
+
+.About-me {
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 165%, left bottom;
+  background-image: url("/images/Mask2.svg"), url("/images/mask3.svg");
+  margin: 30px 3px;
+  background-size: 100px;
+}
+
+form {
+  width: 50%;
+}
+
+.icon {
+  border-top: 1px solid #dfe1e6;
+}
+
+.butn {
+  margin-top: -100px;
+}
+
+.sect {
+  background-image: url("images/left.svg"), url("images/right.png"), url("images/middle.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left 117%, right 65%, 26% 107%;
+  background-size: 112px;
+  display: flex;
+  flex-wrap: wrap;
 }
